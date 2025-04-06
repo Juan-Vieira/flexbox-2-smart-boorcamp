@@ -1,0 +1,116 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-family: monospace;
+    font-size: 80px;
+    font-weight: 600;
+    align-self: center;
+    background-color: #d0d3d4;
+    margin-block: 40px;
+    padding-inline: 762px;
+    
+}
+
+/* EXERCÍCIO A */
+.ex-01 .container1 {
+    display: flex;
+}
+
+.ex-01 .container2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ex-01 .container3 {
+    display: flex;
+    justify-content: center;
+}
+
+.ex-01 .container4 {
+    display: flex;
+    justify-content: space-between;
+}
+.ex-01 .container5 {
+    display: flex;
+    justify-content: space-around;
+}
+.ex-01 .container6 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* EXERCÍCIO B */
+
+.ex-02 .container1 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.ex-02 .container2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.ex-02 .container3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.ex-02 .container4 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.ex-02 .container5 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.ex-02 .container6 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
